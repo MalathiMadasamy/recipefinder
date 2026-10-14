@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 function App() {
   const [recipe, setRecipe] = useState('');
-  const [result, setResult] = useState([]);
+const [result, setResult] = useState<string[]>([]);
 
   const recipes = [
     'Chicken Biryani',
